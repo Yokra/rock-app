@@ -1,0 +1,137 @@
+*{
+  box-sizing: border-box;
+  width: 100%;
+  margin:0;
+  text-decoration: none;
+}
+
+body{
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows:auto;
+    font-family: -apple-system, BlinkMacSystemFont, sans-serif;
+}
+
+header{
+    display:grid;
+    grid-template-columns: 1fr 1fr;
+    height: 87px;
+    width: 100%;
+    background-color: #FAFAFA;
+    -webkit-box-shadow: 0 3px 5px rgba(57, 63, 72, 0.3);
+    -moz-box-shadow: 0 3px 5px rgba(57, 63, 72, 0.3);
+  box-shadow: 0 3px 5px rgba(57, 63, 72, 0.3);
+}
+
+.logo{
+    grid-column: 1/2;
+    width: 164px;
+    height: 52px;
+    margin-top: 18px;
+    margin-left: 12px;
+}
+
+.signin{
+    float: right;
+    grid-column: 2/3;
+    margin-left: 100px;
+    margin-top: 40px;
+    color:#4A4A4A;
+    font-size: 15px;
+    }
+
+nav{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    text-align: center;
+    overflow: hidden;
+    height: 54px;
+    background-color: #FAFAFA;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    -webkit-box-shadow: 0px -4px 5px 0px rgba(57, 63, 72, 0.3);
+    -moz-box-shadow: 0px -4px 5px 0px rgba(57, 63, 72, 0.3);
+    box-shadow: 0px -4px 5px 0px rgba(57, 63, 72, 0.3);
+
+}
+
+nav a {
+     margin-top: 6px;
+
+
+}
+
+a:hover img{
+      fill: #D0021B;
+
+
+}
+
+nav div{
+    margin-top: -4px;
+}
+
+.events{
+    height: 28px;
+    width: 28px;
+    grid-column: 1/2;
+    grid-row: 1/2;
+   }
+
+.favorites{
+    height: 28px;
+    width: 28px;
+    grid-column: 2/3;
+    grid-row: 1/2;
+
+}
+
+.history{
+    height: 31px;
+    width: 34px;
+    grid-column: 3/4;
+    grid-row: 1/2;
+
+}
+
+.contact{
+    height: 28px;
+    width: 28px;
+    grid-column: 4/5;
+    grid-row: 1/2;
+
+}
+
+.textevents{
+    font-size: 10px;
+    color: #000000;
+    grid-column: 1/2;
+    grid-row: 2/3;
+
+
+}
+
+.textfavorites{
+    font-size: 10px;
+    color: #000000;
+    grid-column: 2/3;
+    grid-row: 2/3;
+
+}
+
+.texthistory{
+    font-size: 10px;
+    color: #000000;
+    grid-column: 3/4;
+    grid-row: 2/3;
+}
+
+.textcontact{
+    font-size: 10px;
+    color: #000000;
+    grid-column: 4/5;
+    grid-row: 2/3;
+}
+
