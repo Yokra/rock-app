@@ -6,12 +6,11 @@
 }
 
 body{
-    display: grid;
-    grid-template-columns: 1fr;
-    grid-template-rows:auto;
+    margin:0;
     font-family: -apple-system, BlinkMacSystemFont, sans-serif;
 }
 
+/*----------header-------*/
 header{
     display:grid;
     grid-template-columns: 1fr 1fr;
@@ -34,11 +33,12 @@ header{
 .signin{
     float: right;
     grid-column: 2/3;
-    margin-left: 100px;
+    margin-left: 120px;
     margin-top: 40px;
     color:#4A4A4A;
     font-size: 15px;
     }
+/*-----------------nav bar-----------*/
 
 nav{
     display: grid;
@@ -63,11 +63,7 @@ nav a {
 
 }
 
-a:hover img{
-      fill: #D0021B;
 
-
-}
 
 nav div{
     margin-top: -4px;
@@ -134,4 +130,107 @@ nav div{
     grid-column: 4/5;
     grid-row: 2/3;
 }
+
+/*------button buy tickets--------*/
+
+.button1{
+    width: 146px;
+    height: 31px;
+    border-width: 1.5px;
+    border-radius: 3px;
+    border-color: #D0021B;
+    font-size: 13px;
+    color: #D0021B;
+    font-family: -apple-system, BlinkMacSystemFont, sans-serif;
+    font-weight: 450;
+    grid-column: 2/3;
+    grid-row: 1/3;
+
+
+}
+
+/*------button interested----------*/
+
+.button2{
+    display: flex;
+    width: 94px;
+    height: 24px;
+    border-width: 1px;
+    border-radius: 3px;
+    border-color: #9B9B9B;
+    grid-column: 3/-3;
+    grid-row: 4/5;
+    margin-left: 262px;
+    margin-top: 12px;
+
+
+}
+
+.star{
+  width: 17px;
+  height: 17px;
+  margin-left: -3px;
+}
+
+.interested{
+    margin-top: 1px;
+    margin-left: 4px;
+    font-size: 12px;
+    color: #9B9B9B;
+    font-family: -apple-system, BlinkMacSystemFont, sans-serif;
+    font-weight: 400;
+
+}
+
+/*---styling the elements from the template index.html---*/
+
+.rock{
+    display: grid;
+    grid-template-columns: 1fr;
+    padding: 35px 22px 37px 22px;
+    grid-gap: 1px;
+    box-shadow: 0 8px 6px -6px grey;
+}
+
+.event {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: auto auto auto auto;
+
+}
+
+
+.day{
+    grid-column: 1/2;
+    grid-row: 1/2;
+    font-size: 12px;
+    font-weight: 600;
+
+}
+
+.date{
+  grid-column: 1/2;
+  grid-row: 2/3;
+  font-size: 19px;
+  font-weight: 400;
+
+
+}
+/*---IMG---*/
+.details{
+    grid-column: 1/3;
+    grid-row: 3/4;
+    margin-top: 7px;
+}
+
+.groupname{
+    grid-column: 1/2;
+    grid-row: 4/5;
+    font-size: 20px;
+    font-weight: 400;
+    color: #D0021B;
+    margin-top: 12px;
+
+}
+
 
