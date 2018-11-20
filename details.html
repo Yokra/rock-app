@@ -8,40 +8,51 @@
 </head>
 
 <body>
-<header><img class="logo" src=images/logo.png alt=alt><div class="signin">Sign in</div></header>
-<nav>
-  <a  href="index.html"><img class="events" src=images/events.svg></a>
-  <a  href=""><img class="favorites" src=images/favorites.svg></a>
-  <a  href=""><img class="history" src=images/history.svg></a>
-  <a  href="contact.html"><img class="contact" src=images/contact.svg></a>
-  <div class= "textevents">events</div>
-  <div class="textfavorites">favorites</div>
-  <div class="texthistory">history</div>
-  <div class="textcontact">contact</div>
-</nav>
+    <header><img class="logo" src=images/logo.png alt=alt>
+        <div class="signin">Sign in</div>
+    </header>
 
+   <main>
+        <template id="rockTemplate">
+    <article class="rock-details">
+     <section class="grid1">
+     <h1 class="groupname-details"></h1>
+     <div class="social">
+     <img class="tweeter" src="images/tweeter.png">
+     <img class="facebook" src="images/facebook.png">
+     </div>
+     </section>
 
- <main>
-   <template id="rockTemplate">
-    <article class="rock">
-     <h1 class="groupname"></h1>
-     <p class="day"> </p>
-     <p class="date"> </p>
+     <section class="importantinfo">
+     <p class="day-details"> </p>
+     <p class="date-details"> </p>
      <p class="venue"> </p>
-     <p class="onlineprice">price: <span></span></p>
-     <p class="consertstarts">concert starts: <span></span></p>
-     <p class="doorhour">door:<span></span></p>
-     <p class="hour">concert starts:<span></span></p>
 
-    <img src="" alt="">
-     <h2> Info about the band</h2>
+     <p class="onlineprice">PRICE: <span></span>DKK</p>
+     <div class="time"><p class="doorhour">door: <span></span>/</p>
+     <p class="hour">concert starts: <span></span> </p></div>
+     </section>
+
+     <section class="image_info"><img class="image-details" src="" alt="">
+     <h2> ABOUT THE BAND</h2>
      <p class="artistdescription"></p>
+     <button class="button1-details"><a class="button1" href="https://www.ticketmaster.dk">BUY TICKETS</a></button>
+     </section>
 
   </article>
   </template>
-  </main>
-  <button class="button1"><a href="https://www.ticketmaster.dk">BUY TICKETS</a></button>
+    </main>
 
+    <nav>
+        <a href="index.html"><img class="events" src=images/events.svg></a>
+        <a href=""><img class="favorites" src=images/favorites.svg></a>
+        <a href=""><img class="history" src=images/history.svg></a>
+        <a href="contact.html"><img class="contact" src=images/contact.svg></a>
+        <div class="textevents">events</div>
+        <div class="textfavorites">favorites</div>
+        <div class="texthistory">history</div>
+        <div class="textcontact">contact</div>
+    </nav>
 </body>
 <script src="details.js"></script>
 <script src="shared.js"></script>

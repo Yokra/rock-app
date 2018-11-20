@@ -16,15 +16,15 @@ function showSingleRock(rock) {
     console.log(rock)
     //, make a copy of the template
     const copy = template.cloneNode(true);
-    copy.querySelector(".groupname").textContent = rock.title.rendered;
-    copy.querySelector(".day").textContent = rock.acf.day;
-    copy.querySelector(".date").textContent = rock.acf.date;
+    copy.querySelector(".groupname-details").textContent = rock.title.rendered;
+    copy.querySelector(".day-details").textContent = rock.acf.day;
+    copy.querySelector(".date-details").textContent = rock.acf.date;
     copy.querySelector(".venue").textContent = rock.acf.venue;
     copy.querySelector(".onlineprice span").textContent = rock.acf.online_price;
     copy.querySelector(".doorhour span").textContent = rock.acf.door_hour;
     copy.querySelector(".hour span").textContent = rock.acf.hour;
     copy.querySelector(".artistdescription").textContent = rock.acf.artist_description;
-    copy.querySelector("img").src =rock.acf.artist_photos.sizes.medium;
+    copy.querySelector(".image-details").src =rock.acf.artist_photos.sizes.medium;
 
     document.querySelector("main").appendChild(copy)
 }

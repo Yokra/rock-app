@@ -7,6 +7,7 @@
 
 body{
     margin:0;
+    margin-bottom: 40px;
     font-family: -apple-system, BlinkMacSystemFont, sans-serif;
 }
 
@@ -232,5 +233,166 @@ nav div{
     margin-top: 12px;
 
 }
+
+/*---styling for the details page---*/
+
+.rock-details{
+    display: grid;
+    grid-template-columns: 1fr;
+    padding: 35px 22px 37px 22px;
+    grid-gap: 2px;
+    box-shadow: 0 8px 6px -6px grey;
+}
+
+.grid1{
+    display: grid;
+    grid-template-columns: 250px 1fr;
+
+
+}
+
+.social{
+    display: flex;
+    text-align: right;
+    flex-direction: row-reverse;
+
+
+}
+
+.facebook {
+    width: 30px;
+    height: 30px;
+
+
+}
+
+.tweeter{
+    width: 30px;
+    height: 30px;
+    margin-left: 8px;
+}
+
+.groupname-details{
+   grid-column: 1/2;
+   font-size: 22px;
+   font-weight: 400;
+   color: #D0021B;
+}
+
+.importantinfo{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: auto;
+    margin-top: 5px;
+
+}
+
+.day-details{
+    grid-column: 1/2;
+    grid-row: 1/2;
+    font-size: 12px;
+    font-weight: 600;
+
+
+}
+
+.date-details{
+  grid-column: 1/2;
+  grid-row: 2/3;
+  font-size: 19px;
+  font-weight: 400;
+}
+
+.venue{
+    font-size: 13px;
+    font-weight: 500;
+    color: #D0021B;
+    grid-column: 1/2;
+    grid-row: 3/4;
+    margin-top: 3px;
+}
+
+.onlineprice{
+   grid-column: 2/3;
+   grid-row: 2/3;
+   font-size: 17px;
+   font-weight: 600;
+   margin-left: 15px;
+}
+
+.time{
+    grid-column: 2/3;
+    grid-row: 3/4;
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr;
+    margin-top: 3px;
+}
+
+.doorhour {
+   font-size: 10px;
+   font-weight: 400;
+   grid-column: 1/2;
+   margin-left: 15px;
+}
+
+.hour{
+   font-size: 10px;
+   font-weight: 400;
+   grid-column: 2/3;
+
+}
+
+
+.image_info{
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: auto auto auto;
+    grid-row-gap: 15px;
+    margin-top: 10px;
+}
+
+.imagedetails{
+    grid-row: 1/2;
+
+}
+
+h2{
+    grid-row: 2/3;
+    font-size: 17px;
+    font-weight: 500;
+    font-family: -apple-system, BlinkMacSystemFont, sans-serif;
+    margin-top: 10px;
+}
+
+.artistdescription{
+    grid-row: 3/4;
+    font-size: 17px;
+    font-weight: 400;
+    font-family: -apple-system, BlinkMacSystemFont, sans-serif;
+}
+
+.button1-details{
+    grid-row:4/5;
+    grid-column: 1/3;
+    margin-left: 90px;
+    margin-top: 10px;
+    width: 146px;
+    height: 31px;
+    border-width: 1.5px;
+    border-radius: 3px;
+    border-color: #D0021B;
+    font-size: 13px;
+    color: #D0021B;
+    font-family: -apple-system, BlinkMacSystemFont, sans-serif;
+    font-weight: 450;
+
+}
+
+
+
+
+
+
 
 
