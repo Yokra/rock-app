@@ -11,7 +11,7 @@ body{
     font-family: -apple-system, BlinkMacSystemFont, sans-serif;
 }
 
-/*----------header-------*/
+/*---header---*/
 header{
     display:grid;
     grid-template-columns: 1fr 1fr;
@@ -39,7 +39,7 @@ header{
     color:#4A4A4A;
     font-size: 15px;
     }
-/*-----------------nav bar-----------*/
+/*---nav bar---*/
 
 nav{
     display: grid;
@@ -132,7 +132,7 @@ nav div{
     grid-row: 2/3;
 }
 
-/*------button buy tickets--------*/
+/*---button buy tickets---*/
 
 .button1{
     width: 146px;
@@ -150,7 +150,7 @@ nav div{
 
 }
 
-/*------button interested----------*/
+/*---button interested---*/
 
 .button2{
     display: flex;
@@ -183,7 +183,7 @@ nav div{
 
 }
 
-/*---styling the elements from the template index.html---*/
+/*---index page---*/
 
 .rock{
     display: grid;
@@ -234,7 +234,7 @@ nav div{
 
 }
 
-/*---styling for the details page---*/
+/*--- details page---*/
 
 .rock-details{
     display: grid;
@@ -277,6 +277,7 @@ nav div{
    font-size: 22px;
    font-weight: 400;
    color: #D0021B;
+
 }
 
 .importantinfo{
@@ -284,6 +285,7 @@ nav div{
     grid-template-columns: 1fr 1fr;
     grid-template-rows: auto;
     margin-top: 5px;
+
 
 }
 
@@ -318,6 +320,7 @@ nav div{
    font-size: 17px;
    font-weight: 600;
    margin-left: 15px;
+
 }
 
 .time{
@@ -343,13 +346,13 @@ nav div{
 
 }
 
-
 .image_info{
     display: grid;
     grid-template-columns: 1fr;
     grid-template-rows: auto auto auto;
     grid-row-gap: 15px;
     margin-top: 10px;
+
 }
 
 .imagedetails{
@@ -363,6 +366,7 @@ h2{
     font-weight: 500;
     font-family: -apple-system, BlinkMacSystemFont, sans-serif;
     margin-top: 10px;
+    box-shadow: 0 8px 6px -6px grey;
 }
 
 .artistdescription{
@@ -388,6 +392,10 @@ h2{
     font-weight: 450;
 
 }
+
+/*---contact page---*/
+
+
 
 
 
