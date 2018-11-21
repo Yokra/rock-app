@@ -405,7 +405,7 @@ h2{
 .gridcontact{
    display: grid;
    grid-template-columns: 1fr;
-   grid-template-rows: 1fr 10px 40px 2px 70px 15px 20px 20px 15px 40px 2px 40px 2px 40px;
+   grid-template-rows: 1fr 10px 40px 2px 70px 15px 20px 20px 15px 40px 2px 40px 2px 60px;
 
 }
 
@@ -478,6 +478,11 @@ h2{
     grid-column: 1/2;
     width: 335px;
     height: 29px;
+    border-radius: 3px;
+    border-width: 1.5px;
+    color: #D4D6DA;
+    border-color: #D4D6DA;
+    display: flex;
 }
 
 .buttonmessage{
@@ -485,6 +490,14 @@ h2{
     grid-column: 1/2;
     width: 335px;
     height: 74px;
+    border-radius: 3px;
+    border-width: 1.5px;
+    color: #D4D6DA;
+    border-color: #D4D6DA;
+    display: flex;
+    padding-bottom: 40px;
+
+
 }
 
 .buttonsend{
@@ -492,4 +505,12 @@ h2{
     grid-column: 1/2;
     width: 81px;
     height: 26px;
+    border-radius: 3px;
+    border-width: 1.5px;
+    border-color: #D0021B;
+    color: #D0021B;
+    float: right;
+    display: inline-block;
+    margin-left: 75%;
+
 }
