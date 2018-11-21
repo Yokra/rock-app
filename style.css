@@ -70,12 +70,12 @@ nav div{
     margin-top: -4px;
 }
 
-.events{
+svg.events{
     height: 28px;
     width: 28px;
     grid-column: 1/2;
     grid-row: 1/2;
-    fill: black;
+    fill: red;
    }
 
 .favorites{
