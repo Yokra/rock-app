@@ -75,7 +75,6 @@ svg.events{
     width: 28px;
     grid-column: 1/2;
     grid-row: 1/2;
-    fill: red;
    }
 
 .favorites{
@@ -512,6 +511,6 @@ h2{
     color: #D0021B;
     float: right;
     display: inline-block;
-    margin-left: 72%;
+    margin-left: 71%;
 
 }

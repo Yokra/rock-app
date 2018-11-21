@@ -1,4 +1,4 @@
-const template = document.querySelector("#rockTemplate").content;
+const template = document.querySelector("#rock-detailsTemplate").content;
 
 
 //1. fetch content
@@ -26,6 +26,8 @@ function showSingleRock(rock) {
     copy.querySelector(".hour span").textContent = rock.acf.hour;
     copy.querySelector(".artistdescription").textContent = rock.acf.artist_description;
     copy.querySelector(".image-details").src =rock.acf.artist_photos.sizes.medium;
+
+
 
 
 
