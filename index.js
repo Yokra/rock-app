@@ -11,12 +11,12 @@ function getRock() {
 }
 
 function showRock(rockList) {
-    console.log(rockList)
+    //console.log(rockList)
     rockList.forEach(showSingleRock)
 }
 
 function showSingleRock(rock) {
-    console.log(rock)
+    //console.log(rock)
     //, make a copy of the template
     const copy = template.cloneNode(true);
     copy.querySelector(".groupname").textContent = rock.title.rendered;
@@ -25,7 +25,8 @@ function showSingleRock(rock) {
 
     copy.querySelector("img").src = rock._embedded["wp:featuredmedia"][0].media_details.sizes.medium.source_url;
 
-    copy.querySelector(".details").href="details.html?rock-detailsid="+rock.id;
+    //copy.querySelector(".details").href="details.html?rockID="+event.id;
+
 
     document.querySelector("main").appendChild(copy)
 }

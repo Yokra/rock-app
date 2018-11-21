@@ -1,5 +1,8 @@
 const template = document.querySelector("#rock-detailsTemplate").content;
 
+//const eventID = param.get("rockid");
+
+
 
 //1. fetch content
 function getRock() {
