@@ -395,12 +395,66 @@ h2{
 
 /*---contact page---*/
 
+.contacts{
+    display: grid;
+    grid-template-columns: 1fr;
+    padding: 35px 22px 37px 22px;
+    grid-gap: 1px;
+}
+
+.gridcontact{
+   display: grid;
+   grid-template-columns: 1fr;
+   grid-template-rows: 1fr 10px 40px 2px 70px 15px 20px 20px 15px 40px 2px 40px 2px 40px;
+
+}
+
+.contactimage{
+    grid-row: 1/2;
+    grid-column: 1/2;
+}
+
+.contact{
+    grid-row: 3/4;
+    grid-column: 1/2;
+    font-size: 24px;
+    font-weight: 400;
+}
+
+.info{
+   grid-row: 5/6;
+   grid-column: 1/2;
+   font-size: 13px;
+   font-weight: 200;
+}
+
+.placename{
+   grid-row: 7/8;
+   grid-column: 1/2;
+   font-size: 16px;
+   font-weight: 700;
+   color: #D0021B;
+}
+
+.address{
+   grid-row: 8/9;
+   grid-column: 1/2;
+
+}
+.postalcode{
+   grid-row: 10/11;
+   grid-column: 1/2;
+}
+
+.phone{
+   grid-row: 12/13;
+   grid-column: 1/2;
+}
 
 
-
-
-
-
-
-
-
+.mainemail{
+   grid-row: 14/15;
+   grid-column: 1/2;
+   font-weight: 500;
+   color: #D0021B;
+}
