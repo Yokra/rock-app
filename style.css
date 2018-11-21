@@ -75,6 +75,7 @@ nav div{
     width: 28px;
     grid-column: 1/2;
     grid-row: 1/2;
+    fill: black;
    }
 
 .favorites{
@@ -511,6 +512,6 @@ h2{
     color: #D0021B;
     float: right;
     display: inline-block;
-    margin-left: 75%;
+    margin-left: 72%;
 
 }

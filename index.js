@@ -1,5 +1,8 @@
 const template = document.querySelector("#rockTemplate").content;
 
+
+
+
 //1. fetch content
 function getRock() {
     fetch("https://martanetza.com/kea/cms/huset_kbh/wp-json/wp/v2/music?categories=1&_embed")
