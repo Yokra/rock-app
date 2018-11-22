@@ -25,7 +25,7 @@ function showSingleRock(rock) {
 
     copy.querySelector("img").src = rock._embedded["wp:featuredmedia"][0].media_details.sizes.medium.source_url;
 
-    //copy.querySelector(".details").href="details.html?rockID="+event.id;
+    copy.querySelector(".details").href="details.html?rockID="+rock.id;
 
 
     document.querySelector("main").appendChild(copy)

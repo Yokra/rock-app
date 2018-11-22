@@ -1,19 +1,20 @@
 const template = document.querySelector("#rock-detailsTemplate").content;
 
-//const eventID = param.get("rockid");
-
+const eventID = param.get("rockID");
+console.log(eventID)
 
 
 //1. fetch content
 function getRock() {
-    fetch("https://martanetza.com/kea/cms/huset_kbh/wp-json/wp/v2/music?categories=1&_embed")
+    fetch("https://martanetza.com/kea/cms/huset_kbh/wp-json/wp/v2/music/"+eventID+"?categories=1&_embed")
         .then(res => res.json())
         .then(showRock)
 }
 
 function showRock(rockList) {
     console.log(rockList)
-    rockList.forEach(showSingleRock)
+    showSingleRock(rockList)
+    //rockList.forEach(showSingleRock)
 }
 
 function showSingleRock(rock) {

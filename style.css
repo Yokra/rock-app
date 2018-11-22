@@ -514,3 +514,7 @@ h2{
     margin-left: 71%;
 
 }
+
+.active svg, .active img{
+    opacity: 0.5;
+}
