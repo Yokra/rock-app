@@ -8,6 +8,7 @@
 body{
     margin:0;
     font-family: -apple-system, BlinkMacSystemFont, sans-serif;
+
 }
 
 /*---header---*/
@@ -515,4 +516,8 @@ h2{
 
 .active svg, .active img{
     opacity: 0.5;
+}
+
+button{
+    background-color: transparent;
 }
