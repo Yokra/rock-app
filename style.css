@@ -7,7 +7,6 @@
 
 body{
     margin:0;
-    margin-bottom: 40px;
     font-family: -apple-system, BlinkMacSystemFont, sans-serif;
 }
 
@@ -32,12 +31,12 @@ header{
 }
 
 .signin{
-    float: right;
     grid-column: 2/3;
-    margin-left: 120px;
-    margin-top: 40px;
     color:#4A4A4A;
     font-size: 15px;
+    justify-self:right;
+    text-align: right;
+    padding: 40px 20px 0 0;
     }
 /*---nav bar---*/
 
@@ -161,7 +160,7 @@ svg.events{
     border-color: #9B9B9B;
     grid-column: 3/-3;
     grid-row: 4/5;
-    margin-left: 262px;
+    justify-self: right;
     margin-top: 12px;
 
 
@@ -188,7 +187,7 @@ svg.events{
 .rock{
     display: grid;
     grid-template-columns: 1fr;
-    padding: 35px 22px 37px 22px;
+    padding: 35px 22px 97px 22px;
     grid-gap: 1px;
     box-shadow: 0 8px 6px -6px grey;
 }
@@ -239,7 +238,7 @@ svg.events{
 .rock-details{
     display: grid;
     grid-template-columns: 1fr;
-    padding: 35px 22px 37px 22px;
+    padding: 35px 22px 97px 22px;
     grid-gap: 2px;
     box-shadow: 0 8px 6px -6px grey;
 }
@@ -319,7 +318,7 @@ svg.events{
    grid-row: 2/3;
    font-size: 17px;
    font-weight: 600;
-   margin-left: 15px;
+
 
 }
 
@@ -336,7 +335,7 @@ svg.events{
    font-size: 10px;
    font-weight: 400;
    grid-column: 1/2;
-   margin-left: 15px;
+
 }
 
 .hour{
@@ -379,7 +378,7 @@ h2{
 .button1-details{
     grid-row:4/5;
     grid-column: 1/3;
-    margin-left: 90px;
+    justify-self: center;
     margin-top: 10px;
     width: 146px;
     height: 31px;
@@ -395,17 +394,19 @@ h2{
 
 /*---contact page---*/
 
-.contacts{
+/*.contacts{
     display: grid;
     grid-template-columns: 1fr;
-    padding: 35px 22px 37px 22px;
+    padding: 35px 22px 90px 22px;
     grid-gap: 1px;
-}
+}*/
 
 .gridcontact{
    display: grid;
    grid-template-columns: 1fr;
    grid-template-rows: 1fr 10px 40px 2px 70px 15px 20px 20px 15px 40px 2px 40px 2px 60px;
+   padding: 35px 22px 0px 22px;
+
 
 }
 
@@ -464,6 +465,7 @@ h2{
     display: grid;
     grid-template-columns: 1fr;
     grid-template-rows: 30px 3px 30px 7px 1fr 7px 1fr;
+    padding: 0 22px 90px 22px;
 }
 
 .get{
@@ -476,7 +478,7 @@ h2{
 .buttonname{
     grid-row: 3/4;
     grid-column: 1/2;
-    width: 335px;
+    width: 100%;
     height: 29px;
     border-radius: 3px;
     border-width: 1.5px;
@@ -488,7 +490,7 @@ h2{
 .buttonmessage{
     grid-row: 5/6;
     grid-column: 1/2;
-    width: 335px;
+    width: 100%;
     height: 74px;
     border-radius: 3px;
     border-width: 1.5px;
@@ -509,9 +511,7 @@ h2{
     border-width: 1.5px;
     border-color: #D0021B;
     color: #D0021B;
-    float: right;
-    display: inline-block;
-    margin-left: 71%;
+    justify-self: right;
 
 }
 
